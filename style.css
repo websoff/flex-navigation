@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+.header{
+    position: fixed;
+    min-width: 320px;
+    padding: 20px;
+    width: 100vw;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;   
+}
+.navigation{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+a,nav{
+    padding: 15px 0;
+}
+.contacts{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+body{
+    width: 100vh;
+    height: 200vh;
+    background-image: url(./img/nav.jpg) ;
+    background-size: 100%;
+}
+a:hover{
+    color: rgb(156, 156, 156); 
+}
+.Rio{
+    font-family: cursive;
+    font-size: 22px;
+}
